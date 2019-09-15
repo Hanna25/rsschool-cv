@@ -1,4 +1,4 @@
-# ***Junior Front End Developer***
+# **Junior Front End Developer**
 
 # **Hanna Tsitsenkova**
 ## __Minsk, Belarus__
