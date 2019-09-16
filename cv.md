@@ -10,6 +10,7 @@
 My goal is to start a JavaScript / Front-End junior career in a growing company. 
 
 ## **Education:**
+* __2011-2015 International University «MITSO». Specialty: logistics economist__
 * __HTML and CSS courses on codecademy.com__
 * __textbook training [JavaScript](http://learn.javascript.ru/)__
 
