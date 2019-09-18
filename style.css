@@ -1,0 +1,54 @@
+.container {
+    margin: 0 auto;    
+    width: 1024px;
+    
+}
+
+.main {
+    font-family: 'Bitter', serif;
+    line-height: 30px;
+    background-color: rgb(234, 231, 241);
+    padding: 30px 11px; 
+    border-right: 1px solid #d1d5da;
+    border-left: 1px solid #d1d5da;
+    border-radius: 3px;  
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.my-photo {
+    position: absolute;
+    top: 35px;
+    right: 200px;
+    bottom: 20vh;
+    width: 210px;
+    height: 222px;
+    float: right;
+    border: solid 1px white;
+    border-radius: 25px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.my-photo img {
+    border-radius: 25px;
+}
+
+.main-title {
+    text-align: center;
+    line-height: 2px;
+    margin-bottom: 43px;
+}
+.telegram {
+    height: 20px;
+    width: 20px;
+}
+.viber {
+    height: 20px;
+    width: 20px;
+}
+.hr {
+    border: none;
+    background-color: rgba(160, 161, 235, 0.575); 
+    color: rgba(160, 161, 235, 0.575); ; 
+    height: 12px;
+}
+
