@@ -1,6 +1,6 @@
 .container {
     margin: 0 auto;    
-    width: 1024px;
+    width: 681px;
     
 }
 
@@ -57,3 +57,9 @@
     height: 12px;
 }
 
+@media screen and (min-width: 900px) {
+    
+    .main-title {
+        color: red;
+    }
+}
