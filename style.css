@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 60px;
+    margin: 0 auto;
 }
 
 .links {
@@ -28,24 +29,23 @@ body {
     display: block;
 }
 .number-phone, .telegram, .mail {
-    margin: 20px 20px;
     cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
 }
 .number-phone {
     background-image: url(./assets/images/Circle-icons-phone.svg.png);
-    background-size: 30px;
+    background-size: 25px;
  
 }
 .telegram {
     background-image: url(./assets/images/logo-telegram.jpg);
-    background-size: 30px;
+    background-size: 25px;
 
 }
 .mail {
     background-image: url(./assets/images/logo-gmail.jpg);
-    background-size: 60px;
+    background-size: 45px;
 }
 .other-links__social-media {
     display: flex;
@@ -98,71 +98,20 @@ h2, h3 {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.information, .skills {
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px
+}
+.information, .skills, .education {
     margin-bottom: 20px;
 }
-/* .container {
-    margin: 0 auto;    
-    width: 681px;
-    
+.experience {
+    padding-right: 60px;
 }
-
-.main {
-    font-family: 'Bitter', serif;
-    line-height: 30px;
-    background-color: rgb(234, 231, 241);
-    padding: 30px 11px; 
-    border-right: 1px solid #d1d5da;
-    border-left: 1px solid #d1d5da;
-    border-radius: 3px;  
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19); 
-    }
-
-.my-photo {
-    position: absolute;
-    top: 35px;
-    right: 200px;
-    bottom: 20vh;
-    width: 210px;
-    height: 222px;
-    float: right;
-    border: solid 1px white;
-    border-radius: 25px;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);  
-}
-
-.my-photo img {
-    border-radius: 25px;
-}
-
-.main-title {
-    text-align: center;
-    line-height: 2px;
-    margin-bottom: 43px;
-}
-.telegram {
-    height: 20px;
-    width: 20px;
-}
-.viber {
-    height: 20px;
-    width: 20px;
-}
-
-.link-telegram {
-    text-decoration: none;
-}
-
-.hr {
-    border: none;
-    background-color: rgba(160, 161, 235, 0.575); 
-    color: rgba(160, 161, 235, 0.575); ; 
-    height: 12px;
-}
-
-@media screen and (min-width: 900px) {
-    
-    .main-title {
-        color: red;
-    }
-} */
