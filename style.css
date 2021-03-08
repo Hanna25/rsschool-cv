@@ -1,4 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+}
+.title {
+    text-align: center;
+}
 .container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.links > li > a {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.number-phone, .telegram, .mail {
+    margin: 20px 20px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.number-phone {
+    background-image: url(./assets/images/Circle-icons-phone.svg.png);
+    background-size: 30px;
+ 
+}
+.telegram {
+    background-image: url(./assets/images/logo-telegram.jpg);
+    background-size: 30px;
+
+}
+.mail {
+    background-image: url(./assets/images/logo-gmail.jpg);
+    background-size: 60px;
+}
+/* .container {
     margin: 0 auto;    
     width: 681px;
     
@@ -62,4 +109,4 @@
     .main-title {
         color: red;
     }
-}
+} */
