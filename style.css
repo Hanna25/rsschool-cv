@@ -49,14 +49,15 @@ body {
 }
 .other-links__social-media {
     display: flex;
+    list-style-type: none;
 }
 .other-links__social-media > li > a {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 40px;
     display: block;
 }
 .git, .school-links {
-    margin: 20px 20px;
+    margin: 0 20px;
     cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,7 +68,7 @@ body {
 }
 .school-links {
     background-image: url(./assets/images/rs_school_js.svg);
-    background-size: 60px;
+    background-size: 80px;
 }
 header, footer {
     background-color: #8DA1E7;
@@ -114,4 +115,9 @@ p, li {
 }
 .experience {
     padding-right: 60px;
+}
+.other-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
