@@ -7,12 +7,14 @@ body {
 }
 .title {
     text-align: center;
+    padding: 20px 0 20px 0;
 }
 .container {
     max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 60px;
 }
 
 .links {
@@ -44,6 +46,60 @@ body {
 .mail {
     background-image: url(./assets/images/logo-gmail.jpg);
     background-size: 60px;
+}
+.other-links__social-media {
+    display: flex;
+}
+.other-links__social-media > li > a {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.git, .school-links {
+    margin: 20px 20px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.git {
+    background-image: url(./assets/images/git.jpg);
+    background-size: 60px;
+}
+.school-links {
+    background-image: url(./assets/images/rs_school_js.svg);
+    background-size: 60px;
+}
+header, footer {
+    background-color: #8DA1E7;
+}
+footer {
+    padding: 20px 0 20px 0;
+}
+.about-me {
+    padding-bottom: 60px;
+}
+.photo {
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+.city  {
+    text-align: center;
+}
+.personal-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.information, .skills {
+    margin-bottom: 20px;
 }
 /* .container {
     margin: 0 auto;    
