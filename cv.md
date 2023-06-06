@@ -48,4 +48,8 @@ I love complex projects, I amn`t afraid of difficulties, I can work in a team.
 ```
 
 ### Courses: 
-* 
+2020 The Rolling Scopes School [Certificate](https://app.rs.school/certificate/o9cctjh0)
+
+
+### English level: 
+Pre-Intermediate
