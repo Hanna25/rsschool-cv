@@ -118,3 +118,27 @@ h1, h3, h4, p, li {
 .courses-date-wrap {
   display: flex;
 }
+
+.webdev-img, .shelter-img, .calculator-img {
+  margin: 20px 0 20px 0;
+}
+.webdev-img:hover {
+  background: #BF6C44;
+}
+
+.lock, .e-mail, .tel, .git {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 10px 0 10px 0;
+}
+
+.e-mail a, .tel a, .git a {
+  text-decoration: none;
+  color: white;
+}
+.lock p {
+  background-image: url("./assets/lock.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;  
+}
+
