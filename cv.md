@@ -2,7 +2,7 @@
 #### Junior Frontend Developer
 
 ### Contacts: 
-* __location:__ Minsk, Belarus
+* __Location:__ Minsk, Belarus
 * __E-mail:__ hanna.tsitsenkova@gmail.com
 * __Telegram:__ titenkova_anna
 
