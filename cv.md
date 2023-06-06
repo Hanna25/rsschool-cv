@@ -2,25 +2,47 @@
 #### Junior Frontend Developer
 
 ### Contacts: 
-* __email:__ hanna.tsitsenkova@gmail.com
-* __tel:__ titenkova_anna
+* __location:__ Minsk, Belarus
+* __E-mail:__ hanna.tsitsenkova@gmail.com
+* __Telegram:__ titenkova_anna
+
 
 ### About me: 
-I love complex projects, I am`t afraid of difficulties, I can work in a team. 
+I love complex projects, I amn`t afraid of difficulties, I can work in a team. 
 
-### Educftion: 
-2011-2015 International University «MITSO». Specialty: logistics economist
+
+### Education: 
+2011-2015 International University «MITSO». Specialty: logistics economist.
+
 
 ### Work expirience: 
 * 02/2020 - 09/2022 Dubai Property Management. Accruals accountant.
 * 09/2022 - present KN Technologies. QA Engineer.
 
+
 ### Skills: 
 * HTML, CSS
 * SCSS / SASS
-* JavaScript ES6
+* JavaScript Basic
 * BEM
 * Webpack
 * Eslint
 * Figma
- 
+* Bootstrap
+* Material
+
+
+### Code example: 
+``` 
+ if (cards.length !== 0) {
+      for (let i = 0; i < cards.length; i++) {  
+        cards[i].addEventListener("click", function(event) {
+          let target = event.target.closest("div.front-side")
+          if (event.target.tagName !== "BUTTON"  && event.target.parentElement.tagName !== "BUTTON" ) {
+            let audio = target.getElementsByTagName("audio")[0]
+            audio.play()  
+          };     
+       });
+    };
+ };
+```
