@@ -4,7 +4,7 @@
 ### Contacts: 
 * __Location:__ Minsk, Belarus
 * __E-mail:__ hanna.tsitsenkova@gmail.com
-* __Telegram:__ titenkova_anna
+* __Telegram:__ @titenkova_anna
 
 
 ### About me: 
