@@ -34,21 +34,23 @@ I love complex projects, I amn`t afraid of difficulties, I can work in a team.
 
 ### Code example: 
 ``` 
- if (cards.length !== 0) {
-      for (let i = 0; i < cards.length; i++) {  
-        cards[i].addEventListener("click", function(event) {
-          let target = event.target.closest("div.front-side")
-          if (event.target.tagName !== "BUTTON"  && event.target.parentElement.tagName !== "BUTTON" ) {
-            let audio = target.getElementsByTagName("audio")[0]
-            audio.play()  
-          };     
-       });
-    };
- };
+function zipWith(fn,a0,a1) {
+  let arr = [];
+  let minNum = Math.min(a0.length, a1.length);
+  for (let i = 0; i < minNum; i++) {
+    arr.push(fn(a0[i], a1[i]));
+  }
+  return arr;  
+}
 ```
 
 ### Courses: 
 2020 The Rolling Scopes School [Certificate](https://app.rs.school/certificate/o9cctjh0)
+
+### Му project: 
+* [Webdew](https://rolling-scopes-school.github.io/hanna25-JS2020Q3/webdev/)
+* [Shelter](https://rolling-scopes-school.github.io/hanna25-JS2020Q3/shelter/pages/main/main.html)
+* [Calculator](https://rolling-scopes-school.github.io/hanna25-JS2020Q3/calculator/)
 
 
 ### English level: 
