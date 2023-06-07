@@ -96,6 +96,10 @@ h1, h3, h4, p, li {
   font-weight: 100;
   font-size: 20px;
 }
+.role a {
+  text-decoration: none;
+  color: #BF6C44;
+}
 
 .date {
   font-weight: 400;
@@ -125,22 +129,6 @@ h1, h3, h4, p, li {
 }
 .webdev-img:hover {
   background: #BF6C44;
-}
-
-.lock, .e-mail, .tel, .git {
-  font-size: 20px;
-  font-weight: 100;
-  margin: 10px 0 10px 0;
-}
-
-.e-mail a, .tel a, .git a {
-  text-decoration: none;
-  color: white;
-}
-.lock p {
-  background-image: url("./assets/lock.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;  
 }
 
 .code__str {
@@ -188,4 +176,35 @@ h1, h3, h4, p, li {
   background-color: #BF6C44;
   transition: .3s;
   border-radius: 2%;
+}
+
+.info__item {
+  display: flex;
+  align-items: center;
+}
+
+.info-icon {
+  margin-right: 15px;
+}
+
+.lock, .e-mail, .tel, .git {
+  font-family: 'Geologica', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.e-mail:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
+.tel:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
+.git:active {
+  color: #4c2b1a;
+  transition: 0.3s;
 }
