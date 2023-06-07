@@ -5,7 +5,7 @@ font-family: 'Noto Serif', serif; */
   padding: 0;
 }
 
-h1, h3, h4, p, li {
+h1, h2, h4, p, li {
   font-family: 'Geologica', sans-serif;  
 }
 
@@ -100,6 +100,10 @@ h1, h3, h4, p, li {
   text-decoration: none;
   color: #BF6C44;
 }
+.role a:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
 
 .date {
   font-weight: 400;
@@ -175,7 +179,15 @@ h1, h3, h4, p, li {
 .rs-img:hover {
   background-color: #BF6C44;
   transition: .3s;
-  border-radius: 2%;
+}
+.footer-img:active {
+  background-color: #4c2b1a;
+  transition: .3s;
+}
+
+.rs-img:active {
+  background-color: #4c2b1a;
+  transition: .3s;
 }
 
 .info__item {
@@ -205,6 +217,47 @@ h1, h3, h4, p, li {
   transition: 0.3s;
 }
 .git:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+}
+
+.project__info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project__title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.project__subtitle {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+p.project__text {
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.project__link {
+  text-decoration: none;
+  color: #BF6C44;
+  font-family: 'Geologica', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.project__link:active {
   color: #4c2b1a;
   transition: 0.3s;
 }
