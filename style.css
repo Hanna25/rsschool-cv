@@ -37,9 +37,10 @@ h1, h3, h4, p, li {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.main {
   display: flex;
 }
-
 .about-me-wrap {
   background-color: #BF6C44;
   padding: 50px 10px 25px 50px;
@@ -51,7 +52,7 @@ h1, h3, h4, p, li {
 }
 
 .about-me-block, .education-block, .language-block, .skills,
-.loc-block, .skills-block, .courses-block, .project-block {
+.loc-block, .skills-block, .courses-block, .project-block, .code-block {
   margin-top: 60px;
   
 }
@@ -142,3 +143,49 @@ h1, h3, h4, p, li {
   background-position: 0 0;  
 }
 
+.code__str {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.code {
+  display: flex;
+  flex-direction: column;
+  background-color: #b2b2b240;
+  padding: 20px 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #505050;
+}
+
+.footer__year {
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+}
+
+.footer__rs {
+  padding: 60px 0 60px 0;
+}
+
+.footer-img, .rs-img {
+  transition: .3s;
+}
+.rs-img {
+  padding: 5px;
+}
+.footer-img:hover {
+  background-color: #BF6C44;
+  transition: .3s;
+  border-radius: 50%;
+}
+
+.rs-img:hover {
+  background-color: #BF6C44;
+  transition: .3s;
+  border-radius: 2%;
+}

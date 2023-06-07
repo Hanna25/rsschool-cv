@@ -7,8 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;400&family=Noto+Serif&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main>
-      <div class="container">
+    <div class="container">
+      <main class="main">        
         <section class="about-me-wrap">
           <div class="info-wrap">
             <img class="photo" src="assets/photo.jpg" alt="photo">
@@ -101,11 +101,34 @@
                 <img class="calculator-img" src="assets/image 9.png" alt="img">
               </a>
             </div> 
-
+          </div>
+          <div class="code-block"> 
+            <h3 class="title">Code example</h3>
+            <span class="black-line"></span> 
+            <pre>
+              <code class="code">
+                <span class="code__str">function zipWith(fn,a0,a1) { </span>
+                <span class="code__str"> let arr = [];</span>
+                <span class="code__str"> let minNum = Math.min(a0.length, a1.length); </span>
+                <span class="code__str"> for (let i = 0; i < minNum; i++) { </span>
+                <span class="code__str">arr.push(fn(a0[i], a1[i])); </span>
+                <span class="code__str">} </span>
+                <span class="code__str"> return arr; </span>
+                <span class="code__str">}</span>
+              </code>
+            </pre>
           </div>
         </section>
-      </div>
-    </main>
-    <footer></footer>
+        </main>
+      <footer class="footer">
+        <a class="footer__rs" href="https://rs.school/js/">
+          <img class="rs-img" src="assets/rs (2).png" alt="img">
+        </a>
+        <p class="footer__year">2023</p>
+        <a class="footer__git" href="https://github.com/hanna25">
+          <img class="footer-img" src="assets/git-footer.png" alt="img">
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
