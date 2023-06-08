@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;400&family=Noto+Serif&display=swap" rel="stylesheet">
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">        
+        <section class="about-me-wrap">
+          <div class="info-wrap">
+            <img class="photo" src="assets/photo.jpg" alt="photo">
+            <div class="name-wrap">
+              <h1 class="name">Hanna Tsitsenkova</h1>
+              <h4 class="name-subtitle">Junior Frontend Developer</h4>
+            </div>
+          </div>
+          <div class="about-me-block">
+            <h2 class="title white-text"> About me </h2> 
+            <span class="white-line"></span> 
+            <p class="subtitle white-text">I love complex projects, I am`t afraid of difficulties, I can work in a team.</p>
+          </div>
+          <div class="education-block">
+            <h2 class="title white-text"> Education </h2>  
+            <span class="white-line"></span>    
+            <p class="subtitle white-text">2011-2015 International University «MITSO». Specialty: logistics economist</p>
+          </div>
+          <div class="language-block">
+            <h2 class="title white-text"> Language </h2>  
+            <span class="white-line"></span>    
+            <p class="subtitle white-text">English Pre-Intermediate level</p>
+          </div>
+          <div class="loc-block">
+            <ul class="lock-info">
+              <li>              
+                <div class="info__item">
+                  <img class="info-icon" src="assets/lock.png" alt="lock-icon">
+                  <p class="lock">Minsk, Belarus</p>
+               </div>
+              </li>
+              <li>
+                <div class="info__item">
+                  <img class="info-icon" src="assets/mail.png" alt="mail-icon">
+                  <a href="mailto:hanna.tsitsenkova@gmail.com" class="e-mail">hanna.tsitsenkova@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <div class="info__item">
+                  <img class="info-icon" src="assets/tel.png" alt="tel-icon">
+                  <a href="https://t.me/titenkova_anna" class="tel">t.me/titenkova_anna</a>
+                </div>
+              </li>
+              <li>
+                <div class="info__item">
+                  <img class="info-icon" src="assets/git.png" alt="lgit-icon">
+                  <a href="https://github.com/Hanna25" class="git">github.com/hanna25</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="skills">
+          <div class="expirience-block">
+            <h2 class="title">Work Expirience</h2>
+            <span class="black-line"></span> 
+            <div class="expirience-date-wrap">
+              <div class="date-wrap">
+                <p class="date">02/2020 - 09/2022</p>
+                <p class="loc">Dubai Property Management</p>
+              </div>
+              <p class="role">Accruals accountant</p>
+            </div>
+            <div class="expirience-date-wrap">
+              <div class="date-wrap">
+                <p class="date">09/2022 - present</p>
+                <p class="loc">KN Technologies</p>
+              </div>
+              <p class="role">QA Engineer</p>
+            </div>           
+          </div>
+          <div class="skills-block">
+            <h2 class="title">Skills</h2>
+            <span class="black-line"></span> 
+            <ul class="skills-items">
+              <li>HTML, CSS</li>
+              <li>SCSS / SASS</li>
+              <li>JavaScript Basic</li>
+              <li>BEM</li>
+              <li>Webpack</li>
+              <li>Eslint</li>
+              <li>Github</li>
+              <li>Figma</li>
+              <li>Bootstrap</li>
+              <li>Material</li>
+            </ul>
+          </div>
+          <div class="courses-block">
+            <h2 class="title">Courses</h2>
+            <span class="black-line"></span> 
+            <div class="courses-date-wrap">
+              <div class="date-wrap">
+                <p class="date">02/2020 - 08/2020</p>
+                <p class="loc">Rolling Scopes School</p>
+              </div>
+              <p class="role"><a href="https://app.rs.school/certificate/o9cctjh0">Certificate</a></p>
+            </div>
+          </div>
+          <div class="project-block">
+            <h2 class="title">My project</h2>
+            <span class="black-line"></span> 
+            <div class="project__items">
+              <div class="project-item">                
+                <img class="shelter-img" src="assets/image 6.png" alt="img">             
+                <div class="project__info">
+                  <h4 class="project__title">shelter</h4>
+                  <p class="project__text">A site that will help you find a close friend with a tail.</p>
+                  <a href="https://rolling-scopes-school.github.io/hanna25-JS2020Q3/shelter/pages/main/main.html" class="project__link">see more</a>
+                </div>
+              </div>
+              <div class="project-item">                
+                <img class="calculator-img" src="assets/image 9.png" alt="img">                
+                <div class="project__info">
+                  <h4 class="project__title">calculator</h4>
+                  <p class="project__text">Calculator that will do the fastest calculation for you.</p>
+                  <a href="https://rolling-scopes-school.github.io/hanna25-JS2020Q3/calculator/" class="project__link">see more</a>
+                </div>
+              </div>
+
+            </div> 
+          </div>
+          <div class="code-block"> 
+            <h2 class="title">Code example</h2>
+            <span class="black-line"></span> 
+            <pre>
+              <code class="code">
+    function abc(a, b, c) { 
+      let arr = [];
+      let minNum = Math.min(b.length, c.length); 
+
+      for (let i = 0; i < minNum; i++) { 
+        arr.push(a(b[i], c[i])); 
+      } 
+      return arr; 
+    }
+              </code>
+            </pre>
+          </div>
+        </section>
+        </main>
+      <footer class="footer">
+        <a class="footer__rs" href="https://rs.school/js/">
+          <img class="rs-img" src="assets/rs (2).png" alt="img">
+        </a>
+        <p class="footer__year">2023</p>
+        <a class="footer__git" href="https://github.com/hanna25">
+          <img class="footer-img" src="assets/git-footer.png" alt="img">
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
