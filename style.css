@@ -1,4 +1,264 @@
-h1 {
-  color: pink;
+/* font-family: 'Geologica', sans-serif;
+font-family: 'Noto Serif', serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h4, p, li {
+  font-family: 'Geologica', sans-serif;  
+}
+
+.name {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.name-subtitle {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.title {
   font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 100;
+}
+.white-text {
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+}
+.about-me-wrap {
+  background-color: #BF6C44;
+  padding: 50px 10px 25px 50px;
+  max-width: 40%;
+}
+
+.photo {
+  max-width: 50%;
+}
+
+.about-me-block, .education-block, .language-block, .skills,
+.loc-block, .skills-block, .courses-block, .project-block, .code-block {
+  margin-top: 60px;
+  
+}
+.skills {
+  max-width: 60%;
+}
+.white-line {
+  display: block;
+  width: 100%;
+  background: white;
+  height: 1px;
+  margin: 0px 0 10px 0;
+}
+
+.black-line {
+  display: block;
+  width: 100%;
+  background: #BF6C44;
+  height: 1px;
+  margin: 0px 0 10px 0;
+}
+.info-wrap{
+  margin-bottom: 30px;
+}
+
+.expirience-date-wrap {
+  display: flex;
+  margin: 25px 0 20px 0;
+}
+
+.skills {
+  padding-left: 20px;
+}
+
+.date-wrap {
+  width: 50%;
+  margin-right: 12px;
+}
+
+.role {
+  font-weight: 100;
+  font-size: 20px;
+}
+.role a {
+  text-decoration: none;
+  color: #BF6C44;
+}
+.role a:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.loc {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.skills-wrap {
+  display: flex;
+}
+
+.skills-items {
+  margin-left: 20px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.courses-date-wrap {
+  display: flex;
+}
+
+.shelter-img, .calculator-img {
+  margin: 20px 0 20px 0;
+  max-width: 50%;
+}
+.webdev-img:hover {
+  background: #BF6C44;
+}
+
+.code__str {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.code {
+  background-color: #b2b2b240;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Geologica', sans-serif;
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #505050;
+}
+
+.footer__year {
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+}
+
+.footer__rs {
+  padding: 60px 0 60px 0;
+}
+
+.footer-img, .rs-img {
+  transition: .3s;
+}
+.rs-img {
+  padding: 5px;
+}
+.footer-img:hover {
+  background-color: #BF6C44;
+  transition: .3s;
+  border-radius: 50%;
+}
+
+.rs-img:hover {
+  background-color: #BF6C44;
+  transition: .3s;
+}
+.footer-img:active {
+  background-color: #4c2b1a;
+  transition: .3s;
+}
+
+.rs-img:active {
+  background-color: #4c2b1a;
+  transition: .3s;
+}
+
+.info__item {
+  display: flex;
+  align-items: center;
+}
+
+.info-icon {
+  margin-right: 15px;
+}
+
+.lock, .e-mail, .tel, .git {
+  font-family: 'Geologica', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.e-mail:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
+.tel:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
+.git:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+}
+
+.project__info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project__title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p.project__text {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 20px 0 20px 0;
+}
+
+.project__link {
+  text-decoration: none;
+  color: #BF6C44;
+  font-family: 'Geologica', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.project__link:active {
+  color: #4c2b1a;
+  transition: 0.3s;
+}
+
+.lock-info li {
+  list-style-type: none;
 }
