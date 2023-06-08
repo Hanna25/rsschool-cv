@@ -48,7 +48,7 @@ h1, h2, h4, p, li {
 }
 
 .photo {
-  width: 244px;
+  max-width: 50%;
 }
 
 .about-me-block, .education-block, .language-block, .skills,
@@ -128,8 +128,9 @@ h1, h2, h4, p, li {
   display: flex;
 }
 
-.webdev-img, .shelter-img, .calculator-img {
+.shelter-img, .calculator-img {
   margin: 20px 0 20px 0;
+  max-width: 50%;
 }
 .webdev-img:hover {
   background: #BF6C44;
@@ -141,10 +142,11 @@ h1, h2, h4, p, li {
 }
 
 .code {
-  display: flex;
-  flex-direction: column;
   background-color: #b2b2b240;
-  padding: 20px 20px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Geologica', sans-serif;
+  display: flex;
 }
 
 .footer {
@@ -246,7 +248,7 @@ h1, h2, h4, p, li {
 p.project__text {
   font-size: 18px;
   font-weight: 100;
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
 }
 
 .project__link {
@@ -260,4 +262,8 @@ p.project__text {
 .project__link:active {
   color: #4c2b1a;
   transition: 0.3s;
+}
+
+.lock-info li {
+  list-style-type: none;
 }

@@ -33,24 +33,32 @@
             <p class="subtitle white-text">English Pre-Intermediate level</p>
           </div>
           <div class="loc-block">
-            <div class="lock-info">
-              <div class="info__item">
-                <img class="info-icon" src="assets/lock.png" alt="lock-icon">
-                <p class="lock">Minsk, Belarus</p>
-              </div>
-              <div class="info__item">
-                <img class="info-icon" src="assets/mail.png" alt="mail-icon">
-                <a href="mailto:hanna.tsitsenkova@gmail.com" class="e-mail">hanna.tsitsenkova@gmail.com</a>
-              </div>
-              <div class="info__item">
-                <img class="info-icon" src="assets/tel.png" alt="tel-icon">
-                <a href="https://t.me/titenkova_anna" class="tel">t.me/titenkova_anna</a>
-              </div>
-              <div class="info__item">
-                <img class="info-icon" src="assets/git.png" alt="lgit-icon">
-                <a href="https://github.com/Hanna25" class="git">github.com/hanna25</a>
-              </div>
-            </div>
+            <ul class="lock-info">
+              <li>              
+                <div class="info__item">
+                  <img class="info-icon" src="assets/lock.png" alt="lock-icon">
+                  <p class="lock">Minsk, Belarus</p>
+               </div>
+              </li>
+              <li>
+                <div class="info__item">
+                  <img class="info-icon" src="assets/mail.png" alt="mail-icon">
+                  <a href="mailto:hanna.tsitsenkova@gmail.com" class="e-mail">hanna.tsitsenkova@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <div class="info__item">
+                  <img class="info-icon" src="assets/tel.png" alt="tel-icon">
+                  <a href="https://t.me/titenkova_anna" class="tel">t.me/titenkova_anna</a>
+                </div>
+              </li>
+              <li>
+                <div class="info__item">
+                  <img class="info-icon" src="assets/git.png" alt="lgit-icon">
+                  <a href="https://github.com/Hanna25" class="git">github.com/hanna25</a>
+                </div>
+              </li>
+            </ul>
           </div>
         </section>
         <section class="skills">
@@ -129,14 +137,15 @@
             <span class="black-line"></span> 
             <pre>
               <code class="code">
-                <span class="code__str">function zipWith(fn,a0,a1) { </span>
-                <span class="code__str"> let arr = [];</span>
-                <span class="code__str"> let minNum = Math.min(a0.length, a1.length); </span>
-                <span class="code__str"> for (let i = 0; i < minNum; i++) { </span>
-                <span class="code__str">arr.push(fn(a0[i], a1[i])); </span>
-                <span class="code__str">} </span>
-                <span class="code__str"> return arr; </span>
-                <span class="code__str">}</span>
+    function abc(a, b, c) { 
+      let arr = [];
+      let minNum = Math.min(b.length, c.length); 
+
+      for (let i = 0; i < minNum; i++) { 
+        arr.push(a(b[i], c[i])); 
+      } 
+      return arr; 
+    }
               </code>
             </pre>
           </div>
