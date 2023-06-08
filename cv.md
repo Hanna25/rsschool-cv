@@ -34,11 +34,11 @@ I love complex projects, I amn`t afraid of difficulties, I can work in a team.
 
 ### Code example: 
 ``` 
-function zipWith(fn,a0,a1) {
+function abc(a, b, c) {
   let arr = [];
-  let minNum = Math.min(a0.length, a1.length);
+  let minNum = Math.min(b.length, c.length);
   for (let i = 0; i < minNum; i++) {
-    arr.push(fn(a0[i], a1[i]));
+    arr.push(a(b[i], c[i]));
   }
   return arr;  
 }
